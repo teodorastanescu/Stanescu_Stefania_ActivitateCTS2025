@@ -28,7 +28,6 @@ public class AgentieImobiliaraEager {
 
     public void posteazaAnunt(String anunt){
         this.nrAnunturi++;
-
     }
 
     @Override

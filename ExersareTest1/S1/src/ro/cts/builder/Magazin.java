@@ -8,7 +8,7 @@ public class Magazin {
     private TipPodea tipPodea;
     private MaterialeDecoratiuni materialeDecoratiuni;
 
-    public Magazin(String denumire, int suprafata, int nrIntrari, int duritatePodea, TipPodea tipPodea, MaterialeDecoratiuni materialeDecoratiuni) {
+    protected Magazin(String denumire, int suprafata, int nrIntrari, int duritatePodea, TipPodea tipPodea, MaterialeDecoratiuni materialeDecoratiuni) {
         this.denumire = denumire;
         this.suprafata = suprafata;
         this.nrIntrari = nrIntrari;
@@ -17,28 +17,37 @@ public class Magazin {
         this.materialeDecoratiuni = materialeDecoratiuni;
     }
 
-    public void setDenumire(String denumire) {
+    protected void setDenumire(String denumire) {
         this.denumire = denumire;
     }
 
-    public void setSuprafata(int suprafata) {
+    protected void setSuprafata(int suprafata) {
         this.suprafata = suprafata;
     }
 
-    public void setNrIntrari(int nrIntrari) {
+    protected void setNrIntrari(int nrIntrari) {
         this.nrIntrari = nrIntrari;
     }
 
-    public void setTipPodea(TipPodea tipPodea) {
+    protected void setTipPodea(TipPodea tipPodea) {
         this.tipPodea = tipPodea;
     }
 
-    public void setDuritatePodea(int duritatePodea) {
+    protected void setDuritatePodea(int duritatePodea) {
         this.duritatePodea = duritatePodea;
     }
 
-    public void setMaterialeDecoratiuni(MaterialeDecoratiuni materialeDecoratiuni) {
+    protected void setMaterialeDecoratiuni(MaterialeDecoratiuni materialeDecoratiuni) {
         this.materialeDecoratiuni = materialeDecoratiuni;
+    }
+
+    public int CalculGradIncendiu(int duritatePodea, MaterialeDecoratiuni materialeDecoratiuni){
+        if(duritatePodea<2 && materialeDecoratiuni==MaterialeDecoratiuni.Lemn){
+            return 100;
+        }
+        else {
+            return 10;
+        }
     }
 
     @Override

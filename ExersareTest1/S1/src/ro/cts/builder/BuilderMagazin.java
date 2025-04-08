@@ -22,7 +22,12 @@ public class BuilderMagazin implements Mall{
 
     @Override
     public Mall setNrIntrari(int nrIntrari) {
-        magazin.setNrIntrari(nrIntrari);
+        if (nrIntrari==0) {
+            nrIntrari=1;
+        }
+        else{
+            magazin.setNrIntrari(nrIntrari);
+        }
         return this;
     }
 

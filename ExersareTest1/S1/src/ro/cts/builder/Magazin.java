@@ -11,7 +11,16 @@ public class Magazin {
     protected Magazin(String denumire, int suprafata, int nrIntrari, int duritatePodea, TipPodea tipPodea, MaterialeDecoratiuni materialeDecoratiuni) {
         this.denumire = denumire;
         this.suprafata = suprafata;
-        this.nrIntrari = nrIntrari;
+        try {
+            if(nrIntrari >1 && nrIntrari >= suprafata/100){
+                this.nrIntrari = nrIntrari;
+            }
+            else{
+                this.nrIntrari= (int) Math.ceil(suprafata/100);
+            }
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
         this.duritatePodea = duritatePodea;
         this.tipPodea = tipPodea;
         this.materialeDecoratiuni = materialeDecoratiuni;
@@ -26,7 +35,12 @@ public class Magazin {
     }
 
     protected void setNrIntrari(int nrIntrari) {
-        this.nrIntrari = nrIntrari;
+        if(nrIntrari >1 && nrIntrari >= suprafata/100){
+            this.nrIntrari = nrIntrari;
+        }
+        else{
+            this.nrIntrari= (int) Math.ceil(suprafata/100);
+        }
     }
 
     protected void setTipPodea(TipPodea tipPodea) {

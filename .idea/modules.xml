@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExersareTest2/Adaptor/Adaptor.iml" filepath="$PROJECT_DIR$/ExersareTest2/Adaptor/Adaptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/CTS.iml" filepath="$PROJECT_DIR$/CTS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar11/ChainOfResponsability/ChainOfResponsability.iml" filepath="$PROJECT_DIR$/Seminar11/ChainOfResponsability/ChainOfResponsability.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExersareTest2/ChainOfResponsabilityEx/ChainOfResponsabilityEx.iml" filepath="$PROJECT_DIR$/ExersareTest2/ChainOfResponsabilityEx/ChainOfResponsabilityEx.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar9/Composite/Composite.iml" filepath="$PROJECT_DIR$/Seminar9/Composite/Composite.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar8/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/Seminar8/Decorator/Decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExersareTest2/DecoratorEx/DecoratorEx.iml" filepath="$PROJECT_DIR$/ExersareTest2/DecoratorEx/DecoratorEx.iml" />
@@ -12,8 +14,10 @@
       <module fileurl="file://$PROJECT_DIR$/ExersareTest2/ExersareTest2.iml" filepath="$PROJECT_DIR$/ExersareTest2/ExersareTest2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar8/Facade/Facade.iml" filepath="$PROJECT_DIR$/Seminar8/Facade/Facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExersareTest2/FacadeEx/FacadeEx.iml" filepath="$PROJECT_DIR$/ExersareTest2/FacadeEx/FacadeEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExersareTest2/FacadeSpital/FacadeSpital.iml" filepath="$PROJECT_DIR$/ExersareTest2/FacadeSpital/FacadeSpital.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExersareTest1/FactoryMethod/FactoryMethod.iml" filepath="$PROJECT_DIR$/ExersareTest1/FactoryMethod/FactoryMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar10/Observer/Observer.iml" filepath="$PROJECT_DIR$/Seminar10/Observer/Observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExersareTest2/ObserverEx/ObserverEx.iml" filepath="$PROJECT_DIR$/ExersareTest2/ObserverEx/ObserverEx.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExersareTest1/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/ExersareTest1/Prototype/Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar8/Proxy/Proxy.iml" filepath="$PROJECT_DIR$/Seminar8/Proxy/Proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExersareTest2/ProxyEx/ProxyEx.iml" filepath="$PROJECT_DIR$/ExersareTest2/ProxyEx/ProxyEx.iml" />
@@ -29,6 +33,7 @@
       <module fileurl="file://$PROJECT_DIR$/ExersareTest1/SimpleFactory/SimpleFactory.iml" filepath="$PROJECT_DIR$/ExersareTest1/SimpleFactory/SimpleFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExersareTest1/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/ExersareTest1/Singleton/Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar10/Strategy/Strategy.iml" filepath="$PROJECT_DIR$/Seminar10/Strategy/Strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExersareTest2/StrategyEx/StrategyEx.iml" filepath="$PROJECT_DIR$/ExersareTest2/StrategyEx/StrategyEx.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar11/Template/Template.iml" filepath="$PROJECT_DIR$/Seminar11/Template/Template.iml" />
     </modules>
   </component>

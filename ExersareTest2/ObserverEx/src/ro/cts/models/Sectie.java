@@ -10,6 +10,6 @@ public class Sectie extends Spital{
 
     @Override
     public void mentioneazaSectie() {
-        System.out.println( this.getNume()+ " este numele sectiei unde s-a detectat alerta");
+        trimiteMesaj( this.getNume()+ " este numele sectiei unde s-a detectat alerta");
     }
 }
